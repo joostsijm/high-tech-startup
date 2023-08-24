@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2
+body
 {
     margin: 0;
     padding: 0;
@@ -67,7 +67,7 @@ footer
     padding: 10px;
 }
 
-.business-model-canvas
+.backdrop-container
 {
     background: red;
     margin: 1em -8em;
@@ -76,7 +76,7 @@ footer
     animation: gradient 10s linear infinite;
 }
 
-table
+.backdrop-container table
 {
     width: 100%;
     border-spacing: 1em;
@@ -84,7 +84,7 @@ table
     padding: 2em;
 }
 
-th
+.backdrop-container th
 {
     border: 3px solid white;
     padding: 10px;
@@ -93,13 +93,13 @@ th
     border: 2px solid #fff;
 }
 
-th, td
+.backdrop-container th, td
 {
     padding: 8px;
     text-align: left;
 }
 
-td
+.backdrop-container td
 {
     vertical-align: top;
 }
@@ -135,21 +135,21 @@ td
 }
 
 /* Widget Container Styles */
-.support-widget {
+.widget {
     border-radius: 5px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.support-widget-inner_container
+.support-inner_container
 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.support-widget-inner_container div
+.support-inner_container div
 {
     width: 100%;
 }
@@ -157,7 +157,7 @@ td
 
 
 /* Button Styles */
-.support-button {
+.button {
     background-color: #007BFF;
     color: #fff;
     border: none;
@@ -168,7 +168,7 @@ td
     transition: background-color 0.3s ease;
 }
 
-.support-button:hover {
+.button:hover {
     background-color: #0056b3;
 }
 
