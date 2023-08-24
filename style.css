@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p
+body, h1, h2
 {
     margin: 0;
     padding: 0;
@@ -102,6 +102,78 @@ th, td
 td
 {
     vertical-align: top;
+}
+
+.download-container
+{
+    width: 100%;
+    text-align: center;
+}
+
+/* Button Styles */
+.download-button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #e74c3c);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+}
+
+.download-button:hover
+{
+    background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #e74c3c);
+    background-size: 400% 400%;
+    animation: gradient 1s linear infinite;
+}
+
+/* Widget Container Styles */
+.support-widget {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.support-widget-inner_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-widget-inner_container div
+{
+    width: 100%;
+}
+
+
+
+/* Button Styles */
+.support-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.support-button:hover {
+    background-color: #0056b3;
+}
+
+.support_me_qr {
+    width: 150px;
 }
 
 /* Create the gradient animation */
