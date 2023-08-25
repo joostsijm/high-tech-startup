@@ -70,7 +70,7 @@ footer
 .backdrop-container
 {
     background: red;
-    margin: 1em -8em;
+    margin: 1em -1em;
     background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #e74c3c);
     background-size: 400% 400%;
     animation: gradient 10s linear infinite;
@@ -158,6 +158,7 @@ footer
 
 /* Button Styles */
 .button {
+    display: block;
     background-color: #007BFF;
     color: #fff;
     border: none;
