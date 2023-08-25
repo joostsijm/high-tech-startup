@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <button class="menu-icon">&#9776;</button>
         <nav>
             <ul>
                 <li><a href="#business-plan">Business plan</a></li>
@@ -289,4 +290,9 @@
         <p>&copy; 2023 Up-Ployer</p>
     </footer>
 </body>
+<script>
+    document.querySelector(".menu-icon").addEventListener("click", function() {
+        document.querySelector("nav ul").classList.toggle("active");
+    });
+</script>
 </html>
